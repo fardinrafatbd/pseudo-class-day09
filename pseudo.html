@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        h1:hover{
+    color: aquamarine;
+    background-color: blueviolet;
+    font-size: 80px;
+}
+.input-focus:focus{
+color: brown;
+padding: 50px 50px;
+display: inline-block;
+font-weight: 600;
+}
+a:visited{
+    color: greenyellow;
+}
+
+li:first-child{
+    color: rgb(199, 34, 34);
+}
+li:last-child{
+    color: aqua;
+    font-size: 50px;
+}
+li:nth-child(2n+1){
+    color: tomato;
+    background-color: antiquewhite;
+    border: 10px double tomato;
+}
+h3::before{
+    content: 'hello';
+    background-color: aquamarine;
+}
+.heading-bhai::after{
+    content: 'gello';
+    background-color: bisque;
+}
+    </style>
+</head>
+<body>
+    <h1>ill use hover style.if i take the cursor over it, it will show some changes, ive added in it</h1>
+    <input type="text">
+    <input class="input-focus" type="text">
+    <input class="input-focus" type="text">
+    <input class="input-focus" type="text"> 
+    <br>
+    <a target="_blank" href="www.google.com">google.com</a>
+    <a target="_blank" href="https://web.programming-hero.com/restart5/video/restart5-5_5-3-pseudo-class-hover-class-hover-visited-focus">programming.com</a>
+    <a target="_blank" href="https://www.website.com/">never visited</a>
+    <br>
+    <br>
+
+    <ul>
+        <li>ami bidesh jabo-1</li>
+        <li>ami bidesh jabo-2</li>
+        <li>ami bidesh jabo-3</li>
+        <li>ami bidesh jabo-4</li>
+        <li>ami bidesh jabo-5</li>
+        <li>ami bidesh jabo-6</li>
+    </ul>
+
+
+    <br>
+    <br>
+
+    <h3>allah vorsha-1</h3>
+    <h3 class="heading-bhai">allah vorsha-2</h3>
+    <h3>allah vorsha-3</h3>
+    <h3 class="heading-bhai">allah vorsha-4</h3>
+    <h3>allah vorsha-5</h3>
+</body>
+</html>
